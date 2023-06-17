@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAVASCRIPT FORM VALIDATION</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://kit.fontawesome.com/107ee2fbd9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="nav-panel">
+    <div class="web-name">Pinoy Sweets</div>
+    <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
+    <ul class="nav-links">
+      <li class="home">
+        <a href="#" class="link">Home</a>
+      </li>
+      <li class="products">
+        <a href="#products-page" class="link">Products</a>
+      </li>
+      <li class="logout">
+        <button id="logout" class="logout-btn">Logout</button>
+      </li>
+      <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+    </ul>
+  </nav>
+
+  <div class="home-page">
+    <img src="images/about.png" class="responsive-image">
+  </div>
+
+  <h1 class="greetings">Welcome to Our Page, <span id="firstname"></span>!</h1>
+  <br>
+  <p class="message">We Specialize in Filipino Hot & Cold Desserts.</p>
+
+  <div class="social">
+    <br>
+    <a href="https://www.facebook.com/profile.php?id=100091416127414"><i class='bx bxl-facebook'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+    <a href="https://twitter.com/PinoySweetz"><i class='bx bxl-twitter'></i></a>
+    <a href="#"><i class='bx bxl-youtube'></i></a>
+  </div>
+
+  <section class="products-page" id="products-page">
+    <div class="heading">
+      <br><br>
+      <h1>Our Products</h1>
+      <h2>Fresh Taste and Great Price</h2>
+      <br>
+    </div>
+
+    <div class="products-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food01.png">
+        </div>
+        <h2>Banana Turon</h2>
+        <span>PhP 15.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food02.png">
+        </div>
+        <h2>Bibingka</h2>
+        <span>PhP 20.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food03.png">
+        </div>
+        <h2>Cassava Cake</h2>
+        <span>PhP 25.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food04.png">
+        </div>
+        <h2>5 pcs Kutsinta</h2>
+        <span>PhP 30.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food05.png">
+        </div>
+        <h2>Leche Flan</h2>
+        <span>PhP 60.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food06.png">
+        </div>
+        <h2>10 pcs Pulvoron</h2>
+        <span>PhP 130.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food07.png">
+        </div>
+        <h2>5 pcs Sapin Sapin</h2>
+        <span>PhP 120.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food08.png">
+        </div>
+        <h2>5 pcs Suman Moron</h2>
+        <span>PhP 125.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food09.png">
+        </div>
+        <h2>12 pcs Ube Puto</h2>
+        <span>PhP 120.00</span>
+        <i class='bx bx-cake'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food10.png">
+        </div>
+        <h2>Buko Pandan</h2>
+        <span>PhP 30.00</span>
+        <i class='bx bxs-drink'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food11.png">
+        </div>
+        <h2>Halo-halo</h2>
+        <span>PhP 50.00</span>
+        <i class='bx bxs-drink'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="images/food12.png">
+        </div>
+        <h2>Taho</h2>
+        <span>PhP 15.00</span>
+        <i class='bx bxs-drink'></i>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2023 Paye John - All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/repsonsive.js"></script>
+</body>
+
+</html>
